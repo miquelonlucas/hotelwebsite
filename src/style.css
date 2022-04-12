@@ -9,21 +9,33 @@ a{
 }
 
 .header{
-    position: sticky;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #040404;
-    height: 46px;
+    height: 52px;
+    justify-content: space-between;
 }
 
 .logo{
-    margin-left: 20px;
+    margin-left: 80px;
     font-weight: 900;
     font-size: 26px;
 }
 .logo:hover{
     cursor: default;
+}
+
+.header div:nth-child(2){
+    display: flex;
+    justify-content: right;
+    padding-right: 80px;
+}
+.header div:nth-child(2) a{
+    margin-left: 20px;
 }
 
 .pagelink{
@@ -43,6 +55,7 @@ a{
 }
 
 .enjoy{
+    margin-top: 46px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +64,7 @@ a{
     background: url(\img\\showcase.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 400px;
+    min-height: 600px;
     width: auto;
 }
 
@@ -90,7 +103,7 @@ a{
 
 .history-bg{
     background-image: url(\img\\photo-1.jpg);
-    height: 300px;
+    height: 400px;
     background-size: cover;
     background-position: center;
 }
@@ -125,10 +138,9 @@ display: flex;
     margin: 0 20px 0 20px;
 }
 .history-text div{
-    margin: 5px;
+    margin: 15px;
 }
-
-.history-text:nth-child(3){
+.history-text div:nth-child(3){
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,4 +150,44 @@ display: flex;
     border: 1px solid  #2d2d2d;
     border-radius: 1px;
     color: #040404;
+}
+
+.advantages{
+    height: 230px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.advantages div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.advantages div p{
+    padding-top: 15px;
+    
+    color: #2d2d2d;
+}
+
+.advantages div p:first-child{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.advantages div:nth-child(1), .advantages div:nth-child(3){
+    background-color: #e2b147;
+}
+
+.advantages div:nth-child(2){
+    background-color: #ffffff;
+}
+
+footer {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
 }
