@@ -1,0 +1,141 @@
+body{
+    background-color: #2d2d2d;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #040404;
+    height: 46px;
+}
+
+.logo{
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 26px;
+}
+.logo:hover{
+    cursor: default;
+}
+
+.pagelink{
+    font-weight: 400;
+    font-size: 23px;
+    color: #fff;
+}
+
+.pagelink:hover{
+    color: #e2b147;
+    cursor: pointer;
+}
+
+.pagelink:active{
+    color: #c68700;
+    cursor: none;
+}
+
+.enjoy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: url(\img\\showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    width: auto;
+}
+
+.enjoy div:nth-child(1){
+    display: flex;
+    font-size: 40px;
+}
+
+.enjoy div:nth-child(1) p:nth-child(1){
+    color: #e2b147;
+    margin: 0 8px 0 0;
+    font-weight: 700;
+}
+.enjoy div:nth-child(1) p:nth-child(2){
+    font-weight: 700;
+}
+
+
+.enjoy div:nth-child(2){
+    padding: 30px;
+    font-size: 17px;
+}
+
+.enjoy div:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 46px;
+    background-color: #2d2d2d;
+    border: 1px solid  #2d2d2d;
+    border-radius: 1px;
+}
+
+
+
+.history-bg{
+    background-image: url(\img\\photo-1.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.history{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.history div:nth-child(1){
+display: flex;
+    font-size: 26px;
+}
+
+.history div:nth-child(1) p:nth-child(1){
+    color: #e2b147;
+    margin: 0 8px 0 0;
+    font-weight: 700;
+}
+.history div:nth-child(1) p:nth-child(2){
+    font-weight: 700;
+}
+.history div p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.history-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+.history-text div{
+    margin: 5px;
+}
+
+.history-text:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 32px;
+    background-color: #fff;
+    border: 1px solid  #2d2d2d;
+    border-radius: 1px;
+    color: #040404;
+}
