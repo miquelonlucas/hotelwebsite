@@ -38,6 +38,10 @@ a{
     margin-left: 20px;
 }
 
+.header div:nth-child(2) a:nth-child(1){
+    color: #d69406;
+}
+
 .pagelink{
     font-weight: 400;
     font-size: 23px;
@@ -81,6 +85,7 @@ a{
 .enjoy div:nth-child(1) p:nth-child(2){
     font-weight: 700;
 }
+
 
 
 .enjoy div:nth-child(2){
