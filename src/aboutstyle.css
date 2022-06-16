@@ -164,7 +164,7 @@ justify-content: center;
          display: none;
         max-width: 100%;
         height: auto;
-        border-radius: 30%;
+        border-radius: 30% 70% 40% 40% / 60% 50% 30% 20%;
     }
     .guests p{
         margin: 8px 8px 8px 0;
@@ -197,8 +197,8 @@ justify-content: center;
     }
 
     .description div img{
-        max-width: 60%;
+        max-width: 80%;
         height: auto;
-        border-radius: 50%;
+        border-radius: 76% 30% 70% 40% / 66% 36% 70% 40%;
     }
 }
